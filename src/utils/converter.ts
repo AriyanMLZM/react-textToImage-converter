@@ -6,7 +6,7 @@ export const converter = (text: string) => {
 
 	canvas.height = 150
 	canvas.width = width
-	context!.fillStyle = 'blue'
+	context!.fillStyle = 'white'
 	context!.font = 'bold 30px Arial'
 	context!.textAlign = 'center'
 
