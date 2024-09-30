@@ -1,4 +1,4 @@
-export const converter = (text: string) => {
+export const converter = (text: string, color: string) => {
 	const canvas = document.getElementById('text-canvas') as HTMLCanvasElement
   const context = canvas.getContext('2d')
 
@@ -6,7 +6,7 @@ export const converter = (text: string) => {
 
 	canvas.height = 150
 	canvas.width = width
-	context!.fillStyle = 'white'
+	context!.fillStyle = color
 	context!.font = 'bold 30px Arial'
 	context!.textAlign = 'center'
 
